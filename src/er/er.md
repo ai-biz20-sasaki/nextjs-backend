@@ -1,14 +1,14 @@
 ```mermaid
 erDiagram
-t_users ||--o{ t_posts: ""
+users ||--o{ posts: ""
 
-t_users {
+users {
   int id
   string name
   string email
 }
 
-t_posts {
+posts {
   int id
   string title
   string content
